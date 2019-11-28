@@ -1,0 +1,8 @@
+version: 1
+
+update_configs:
+  - package_manager: "submodules"
+    directory: "trik-webpanel"
+    update_schedule: "daily"
+    default_reviewers:
+      - "khodand"
