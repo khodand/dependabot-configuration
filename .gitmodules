@@ -1,0 +1,3 @@
+[submodule "trik-webpanel"]
+	path = trik-webpanel
+	url = https://github.com/khodand/trik-webpanel
