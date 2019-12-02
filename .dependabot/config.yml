@@ -4,8 +4,5 @@ update_configs:
   - package_manager: "submodules"
     directory: "./"
     update_schedule: "daily"
-    allowed_updates:
-      - match:
-          dependency_name: "trik-webpanel"
     default_reviewers:
       - "khodand"
