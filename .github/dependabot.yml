@@ -10,13 +10,13 @@ updates:
   - khodand
   
   - package-ecosystem: gitsubmodule
-  directory: "/."
-  schedule:
-    interval: daily
-    time: "09:00"
-  open-pull-requests-limit: 10
-  target-branch: "junior"
-  labels:
-  - "junior"
-  reviewers:
-  - khodand
+    directory: "/."
+    schedule:
+      interval: daily
+      time: "09:00"
+    open-pull-requests-limit: 10
+    target-branch: "junior"
+    labels:
+    - "junior"
+    reviewers:
+    - khodand
