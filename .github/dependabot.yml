@@ -6,9 +6,16 @@ updates:
     interval: daily
     time: "10:00"
   open-pull-requests-limit: 10
-  target-branch:
-  - "master"
-  - "junior"
+  reviewers:
+  - khodand
+  
+  - package-ecosystem: gitsubmodule
+  directory: "/."
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  target-branch: "junior"
   labels:
   - "junior"
   reviewers:
